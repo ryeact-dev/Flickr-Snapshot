@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './Form.Module.css';
+import styles from './Form.module.css';
 
 export default function Form() {
   const navigate = useNavigate();
